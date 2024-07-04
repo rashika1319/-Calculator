@@ -1,0 +1,47 @@
+<!Doctype Html>
+<Html>
+<head>
+    <link href="Calculate.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculator</title>
+</head>
+	
+	   <body><center>
+	   <h2>Calculator</h2>
+	   <table class = "myCalculator" border="1" cellpadding = "15px" cellspacing = "15px">
+		<tr><b>
+			<td colspan="4"><input class="display-box" type="text" id="result" placeholder="0"></td>
+		</tr><br><br><br><br>
+		<tr><b>
+			<td colspan = "2"><input type ="button" onclick="clearScreen()" value="AC    " id="eqbtn" ></td>
+			<td><input type ="button" onclick="calculate()" value="=" id="btn" ></td>
+			<td><input type ="button" onclick="display('%')" value="%" id="sim"></td>
+		</tr>
+		<tr><b>
+			<td><input type ="button" onclick="display('1')" value="1" id="num"></td>
+			<td><input type ="button" onclick="display('2')" value="2" id="num"></td>
+			<td><input type ="button" onclick="display('3')" value="3" id="num"></td>
+			<td><input type ="button" onclick="display('+')" value="+" id="sim"></td>
+		</tr>
+		<tr><b>
+			<td><input type ="button" onclick="display('4')" value="4" id="num"></td>
+			<td><input type ="button" onclick="display('5')" value="5" id="num"></td>
+			<td><input type ="button" onclick="display('6')" value="6" id="num"></td>
+			<td><input type ="button" onclick="display('-')" value="-" id="sim"></td>
+	    </tr>
+		<tr><b>
+			<td><input type ="button" onclick="display('7')" value="7" id="num"></td>
+			<td><input type ="button" onclick="display('8')" value="8" id="num"></td>
+			<td><input type ="button" onclick="display('9')" value="9" id="num"></td>
+			<td><input type ="button" onclick="display('*')" value="*" id="sim"></td>
+		</tr>
+		<tr><b>
+			<td><input type ="button" onclick="display('0')" value="0" id="num"></td>
+			<td><input type ="button" onclick="display('00')" value="00"id="num"></td>
+			<td><input type ="button" onclick="display('.')" value="." id="num"></td>
+			<td><input type ="button" onclick="display('/')" value="/" id="sim"></td>
+		</tr>
+		</table>
+		<script src="calculate.js"></script>
+		</body>
+		<html>
